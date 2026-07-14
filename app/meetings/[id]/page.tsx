@@ -1,4 +1,5 @@
 import { getMeetingById } from "@/lib/meetings-db";
+import MeetingDetail from "@/components/MeetingDetail";
 
 export default async function MeetingPage({
   params,
@@ -11,11 +12,5 @@ export default async function MeetingPage({
   if (!meeting) {
     return <h1>Meeting not found</h1>;
   }
-
-  return (
-    <div>
-      <h1>{meeting.date}</h1>
-      {/* render meeting details here */}
-    </div>
-  );
+  return <MeetingDetail meeting={meeting} />;
 }
