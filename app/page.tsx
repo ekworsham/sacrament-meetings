@@ -7,7 +7,7 @@ export default function Home() {
         <Image
           className="dark:invert"
           src="/window.webp"
-          alt="Next.js logo"
+          alt="Window"
           width={100}
           height={20}
           priority
