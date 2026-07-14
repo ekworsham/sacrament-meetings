@@ -1,5 +1,6 @@
-import { getMeetingById } from "@/lib/meetings-db";
 import MeetingDetail from "@/components/MeetingDetail";
+import { getMeetingById } from "@/lib/meetings-db";
+
 
 export default async function MeetingPage({
   params,
