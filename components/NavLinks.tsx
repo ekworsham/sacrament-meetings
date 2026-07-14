@@ -5,8 +5,8 @@ import { usePathname } from "next/navigation";
 
 const links = [
   { href: "/", label: "Home" },
-  { href: "/components/MeetingCard.tsx", label: "Meetings" },
-  { href: "/components/MeetingDetail.tsx", label: "Meeting Detail" },
+  { href: "/meetings", label: "Meetings" },
+  { href: "/meetings/current", label: "Current Program" },
 ];
 
 export default function NavLinks() {
