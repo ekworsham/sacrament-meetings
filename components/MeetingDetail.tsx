@@ -5,6 +5,8 @@ interface MeetingDetailProps {
 }
 
 export default function MeetingDetail({ meeting }: MeetingDetailProps) {
+  console.log(meeting);
+  console.log(meeting.openingHymn);
   return (
     <article className="max-w-3xl mx-auto bg-white shadow rounded-lg p-6 space-y-6">
 
